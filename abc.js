@@ -6,7 +6,7 @@ let currentYear = new Date().getFullYear();
 
 
 for (let year = currentYear; year < currentYear + 50; year++) {
-  let AugInd = new Date(year, 8, 14); 
+  let AugInd = new Date(year, 7, 14); 
   
   
   if (AugInd.getDay() === 0) {
